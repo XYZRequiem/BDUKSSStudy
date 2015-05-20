@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sleepiness Study</string>
+    <string name="id_text">ID# </string>
+    <string name="id_number">0000</string>
+    <string name="action_settings">Results</string>
+    <string name="version_number_text">V.1.0</string>
+    <string name="study_name_text">B.Du KSS Study</string>
+    <string name="about_button">About</string>
+    <string name="start_button">Start</string>
+    <string name="overlay_text">Start Shift</string>
+    <string name="question_text">How Tired Do You Feel?</string>
+    <string name="wide_awake_text">1 = Extremely Alert</string>
+    <string name="struggling_to_awake">9 = Extremely Sleepy</string>
+    <string name="scale_one_nine">On a scale of 1 - 9</string>
+    <string name="your_response_text">Your Response:</string>
+    <string name="end_shift_text">End Shift</string>
+    <string name="speech_prompt">On a scale of 1 to 9, How sleepy are you? 1 being Extremely Alert and 9 being Extremely Sleepy</string>
+    <string name="speech_not_supported">Sorry! Your device does not support speech input</string>
+    <string name="user_response">User Response</string>
+    <string name="return_to_main">Return</string>
+    <string name="about_message"> This APP will be used to measure your level of wakefulness/tiredness over time</string>
+    <string name="app_written_by">APP by Antoine McTaggart</string>
+    <string name="change_id">Change ID</string>
+    <string name="popupidtitle">Change ID</string>
+    <string name="masterpass">BronsonDu</string>
+    <string name="cancel_button_text">EXIT</string>
+    <string name="submit_button_text">SUBMIT</string>
+    <string name="study_password_text">Study Password:</string>
+    <string name="new_id_number_text">New ID Number:</string>
+    <string name="kss_title">Karolinska Sleepiness Scale</string>
+    <string name="kss_description">This app will be used to measure how alert or sleepy you are over time. You will be asked to describe, using the scale below, how tired or awake you are.</string>
+    <string name="kss_scale"> \n
+        1. Extremely Alert \n
+        2. Very Alert \n
+        3. Alert \n
+        4. Rather Alert \n
+        5. Neither Alert Nor Sleepy \n
+        6. Some Sighs of Sleepiness \n
+        7. Sleepy, But No Difficulty Remaining Awake \n
+        8. Sleepy, Some Effort To Keep Alert \n
+        9. Extremely Sleepy, Fighting Sleep
+    </string>
+    <string name="exit_button_text">EXIT</string>
+    <string name="correctPass">Changing ID</string>
+    <string name="wrongPass">Incorrect Password</string>
+
+</resources>

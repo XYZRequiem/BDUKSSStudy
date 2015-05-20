@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:screenOrientation="portrait"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context = ".QuestionScreen"
+    android:weightSum="1"
+    android:background="#ffc8d0ff">
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textClock"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:padding="10dp"
+        android:layout_gravity="end"
+        android:inputType="datetime" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/study_name_text"
+        android:id="@+id/textView3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:padding="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/version_number_text"
+        android:id="@+id/version_number"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:padding="5dp"/>
+
+    <TextView
+        android:text="@string/id_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/idnumber"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/id_number"
+        android:id="@+id/numberid"
+        android:padding="10sp"
+        android:layout_alignBottom="@+id/idnumber"
+        android:layout_toEndOf="@+id/idnumber"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/question_text"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:id="@+id/question_text"
+        android:layout_below="@+id/textClock"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="33dp"
+        android:layout_alignParentEnd="true"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/wide_awake_text"
+        android:textSize="15sp"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/question_text"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="66dp"
+        android:padding="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/struggling_to_awake"
+        android:textSize="15sp"
+        android:id="@+id/textView6"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_alignParentEnd="true"
+        android:padding="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/scale_one_nine"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/scale_one_nine"
+        android:layout_below="@+id/question_text"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/your_response_text"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:id="@+id/textView8"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/textView6" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/user_response"
+        android:gravity="center"
+        android:id="@+id/user_response"
+        android:layout_marginTop="98dp"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/version_number"
+        android:inputType="number"
+        android:background="#ffffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/end_shift_text"
+        android:id="@+id/end_shift"
+        android:layout_below="@+id/user_response"
+        android:layout_alignEnd="@+id/version_number"
+        android:layout_marginTop="29dp"
+        android:background="#ff4366ff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_button_text"
+        android:id="@+id/QSSubmit"
+        android:layout_alignBottom="@+id/end_shift"
+        android:layout_alignParentStart="true"
+        android:background="#ff4366ff" />
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/about_page"
+    android:background="#ff000000"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/kss_title"
+        android:textColor="#FFFFFFFF"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/kss_description"
+        android:textColor="#FFFFFFFF"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:id="@+id/textView9"
+        android:layout_weight="0.24" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="203dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/kss_scale"
+        android:textColor="#FFFFFFFF"
+        android:textSize="18sp"
+        android:id="@+id/textView10"
+        android:layout_weight="0.58" />
+
+
+
+    <Button
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exit_button_text"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/KSSExit"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+</LinearLayout>
